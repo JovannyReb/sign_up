@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    width: 40vw;
+    height: 100vh;
+    background-image: url(img/store.jpg);
+    background-size: cover;
+
+
+}
