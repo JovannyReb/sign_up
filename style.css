@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+}
+
+
+/* Left side of the main page */
 
 .wrapper {
-    width: 40vw;
+    width: 30vw;
     height: 100vh;
     background-image: url(img/store.jpg);
     background-size: cover;
@@ -39,3 +45,17 @@
     color: white;
     margin: 10px;
 }
+
+
+
+/* Right side of the main page */
+
+.header {
+    background:#F5F5F5;
+    height: 37vh;
+}
+
+.form-wrapper {
+    width: 70vw;
+}
+
