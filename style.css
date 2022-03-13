@@ -10,6 +10,29 @@
     height: 100vh;
     background-image: url(img/store.jpg);
     background-size: cover;
+    background-position: center center;
+}
 
+.logo-box {
+    width: 100%;
+    height: auto;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: black;
+    opacity: .5;
+
+    position: relative;
+    top: 15em;
+    border: 2px solid red;
+}
+
+.logo-box img {
+    height: 100px;
+}
+
+.logo-box h1 {
+    color: white;
 }
