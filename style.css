@@ -52,10 +52,26 @@ body {
 
 .header {
     background:#F5F5F5;
-    height: 37vh;
+    height: 250px;
 }
 
-.form-wrapper {
-    width: 70vw;
+
+
+.text-box {
+    position: relative;
+    font-weight: bold;
+    font-size: 22px;
+    width: 80%;
+    top: 80px;
+    left: 40px;
+
 }
 
+
+span {
+    font-style: italic;
+}
+
+.text-box > p + p {
+    margin-top: 25px;
+}
