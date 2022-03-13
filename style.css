@@ -13,26 +13,29 @@
     background-position: center center;
 }
 
-.logo-box {
+.container {
     width: 100%;
     height: auto;
+    position: relative;
+    top: 10em;
+    text-align: center;
+    padding: 15px 0px;
 
+    background: rgba(0, 0,0, .5);
+}
+
+.logo-box {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    background: black;
-    opacity: .5;
-
-    position: relative;
-    top: 15em;
-    border: 2px solid red;
 }
 
 .logo-box img {
     height: 100px;
+    margin: 10px;
 }
 
 .logo-box h1 {
     color: white;
+    margin: 10px;
 }
