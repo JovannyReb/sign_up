@@ -2,10 +2,12 @@ const password1 = document.querySelector('#password');
 const password2 = document.querySelector('#confrmPassword');
 const button = document.querySelector("#main-btn");
 const text = document.querySelector('.error-text');
+const checkButtn = document.querySelector('#confrmPassword');
 
 // TODO when the create button is clicked will check if the passwords are similar or not.
 
 function checkPW() {
+    
     if (password1.value === password2.value) {
         console.log("Works")
         password1.style.borderColor = "green";
@@ -24,7 +26,7 @@ function checkPW() {
 }
 
 
-button.addEventListener('focus', checkPW );
+checkButtn.addEventListener('input', checkPW );
 
 
 

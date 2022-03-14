@@ -6,6 +6,7 @@
 
 body {
     display: flex;
+    width: 100%;
 }
 
 
@@ -50,10 +51,17 @@ body {
 
 /* Right side of the main page */
 
+article {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 .header {
     background:#F5F5F5;
     height: 250px;
     width: auto;
+    flex: 1;
 }
 
 
@@ -101,6 +109,7 @@ form {
     justify-content: flex-start;
     height: 300px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    flex: 1;
 }
 
 .left {
@@ -123,7 +132,7 @@ form {
 .solo-heading {
     position: relative;
     left: 41px;
-    top: 38px;
+    top: 20px;
 }
 
 .error {
@@ -147,6 +156,11 @@ form {
 
 
 /* Bottom of page / submit button */
+.bottom {
+    background:#F5F5F5;
+    flex: 1;
+}
+
 
 .bottom input[type="submit"] {
     font-size: 15px;
@@ -154,11 +168,16 @@ form {
     color: white;
     background: tan;
     border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 1px 2px gray;
 
     position: relative;
     top: 25px;
     left: 37px;
 }
+
+
 
 .bottom p {
     position: relative;
