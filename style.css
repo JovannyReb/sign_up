@@ -53,6 +53,7 @@ body {
 .header {
     background:#F5F5F5;
     height: 250px;
+    width: auto;
 }
 
 
@@ -90,12 +91,15 @@ span {
     width: 150%;
     border-color: #E5E7EB;
     border-radius: 7px;
+    margin-bottom: 20px;
 }
 
 form {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    height: 300px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 .left {
@@ -108,4 +112,15 @@ form {
 
 .form-row input:focus {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-row label {
+    font-size: 12px;
+    color: #696969
+}
+
+.solo-heading {
+    position: relative;
+    left: 41px;
+    top: 38px;
 }
