@@ -90,8 +90,9 @@ span {
 .form-row input {
     width: 150%;
     border-color: #E5E7EB;
-    border-radius: 7px;
+    border-radius: 5px;
     margin-bottom: 20px;
+    padding: 5px;
 }
 
 form {
@@ -123,4 +124,12 @@ form {
     position: relative;
     left: 41px;
     top: 38px;
+}
+
+.error {
+    border-color: red;
+}
+
+.correct {
+    border-color: green;
 }
