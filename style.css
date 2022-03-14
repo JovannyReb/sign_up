@@ -133,3 +133,32 @@ form {
 .correct {
     border-color: green;
 }
+
+
+/* Bottom of page / submit button */
+
+.bottom input[type="button"] {
+    font-size: 15px;
+    padding: 10px 30px;
+    color: white;
+    background: tan;
+    border: none;
+    border-radius: 25px;
+
+    position: relative;
+    top: 25px;
+    left: 37px;
+}
+
+.bottom p {
+    position: relative;
+    left: 38px;
+    top: 50px;
+}
+
+.bottom a {
+    color: tan;
+    text-decoration: none;
+}
+
+

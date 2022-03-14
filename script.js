@@ -6,6 +6,7 @@ const password2 = document.querySelector('#confrmPassword');
 function checkPW() {
     if (password1.value === password2.value) {
         password1.classList.toggle('correct');
+        password2.classList.toggle('correct');
     }
 }
 
