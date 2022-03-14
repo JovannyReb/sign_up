@@ -134,15 +134,25 @@ form {
     border-color: green;
 }
 
+.error-text {
+    position: relative;
+    font-size: 12px;
+    color: red;
+    bottom: 74px;
+    left: 44px;
+    visibility: hidden;
+}
+
+
+
 
 /* Bottom of page / submit button */
 
-.bottom input[type="button"] {
+.bottom input[type="submit"] {
     font-size: 15px;
     padding: 10px 30px;
     color: white;
     background: tan;
-    border: none;
     border-radius: 25px;
 
     position: relative;
