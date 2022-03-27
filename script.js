@@ -9,11 +9,6 @@ const checkButtn = document.querySelector('#confrmPassword');
 function checkPW() {
     
     if (password1.value === password2.value) {
-        console.log("Works")
-        password1.style.borderColor = "green";
-        password2.style.borderColor = "green";
-        password1.style.borderWidth = "2px";
-        password2.style.borderWidth = "2px";
         text.style.visibility = "hidden";
     }
     else {
